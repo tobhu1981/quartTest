@@ -1,5 +1,5 @@
 ---
-title: Schulungsmaterial
+title: Schulungsmaterial neu
 lang: de
 listing:
   template: material.ejs
