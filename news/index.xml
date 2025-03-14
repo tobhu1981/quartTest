@@ -9,7 +9,7 @@
 <link>https://tobhu1981.github.io/quartTest/news/</link>
 <atom:link href="https://tobhu1981.github.io/quartTest/news/index.xml" rel="self" type="application/rss+xml"/>
 <description>Dokumentation der IQB-Webanwendungen zum computerbasierten Testen - TBA</description>
-<generator>quarto-1.6.37</generator>
+<generator>quarto-1.6.30</generator>
 <lastBuildDate>Fri, 10 Jan 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Neu: Speedtest Player+Editor</title>
