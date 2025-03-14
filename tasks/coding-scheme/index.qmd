@@ -1,0 +1,71 @@
+---
+lang: de
+title: "Kodierschema"
+---
+
+Bei der Aufgabenerstellung im Studio werden Frageelemente in einer Unit angeordnet. Die Beantwortung dieser Frageelemente erzeugt Antwortwerte. Um Schlussfolgerungen hinsichtlich der Bewertung einer Antwort zu ziehen, werden die Antwortwerte Kategorien zugeordnet. Im einfachsten Fall gibt es die Kategorien richtig und falsch, sowie Kategorien für fehlende Werte. Die Zuordnung erfolgt durch die Erstellung von Regeln und Instruktionen. Diese sagen dann ganz grob ausgedrückt, diese Antwort ist falsch, und diese Antwort ist richtig.
+
+* Die Zuordnung einer Antwort zu einer Kategorie nennen wir **Kodierung**. Man vergibt für eine Antwort einen Code.
+* Wir unterscheiden **Regeln** für die automatische Kodierung und **Instruktionen** für die manuelle Kodierung.
+* Die Gesamtheit der Regeln und Instruktionen zur Kodierung der Antworten einer Aufgabe nennen wir **Kodierschema**.
+* Den Teil der Studioprogrammierung, mit dem wir das Kodierschema definieren, nennen wir **Schemer**. Es handelt sich um ein austauschbares Verona-Modul wie der Player und der Editor.
+
+Dieser Abschnitt thematisiert die Definition eines Kodierschemas als Teil der Aufgabenentwicklung.
+
+::: {.callout-note}
+Das Kodierschema ist grundsätzlich sehr offen und flexibel. Für eine effiziente Kodierung und Datenauswertung hat das IQB jedoch zahlreiche Konventionen und Vorgehensweisen eingeführt, die in diesem Abschnitt als notwendig beschrieben sind.
+:::
+
+Lesen Sie weiter:
+
+* [Elemente und Variablen](steps.qmd)
+* [Basisfälle](basic.qmd)
+* [Sonderfälle](extended.qmd)
+
+:::{.border}
+![Gesamtansicht Schemer](assets/Schemer_total.png)
+:::
+
+* Im **linken Bildschirmbereich** finden Sie eine Liste aller Variablen und Schalter für übergreifende Funktionen.
+  * Oben in der Liste finden sich die Basisvariablen. Diese stehen für Datenquellen, die in der Aufgabendefinition angelegt wurden (z. B. Eingabefeld, Checkbox usw.).
+  * Weiter unten sind die abgeleiteten Variablen gelistet. Diese beziehen ihren Wert und dann ihre Kodierung aus einer oder mehreren anderen Variablen.
+  * Über Schalter unten links können Variablen angelegt, gelöscht, umbenannt, kopiert oder geprüft werden.
+* Im **rechten Bildschirmbereich** sind die Regeln und Instruktionen für die jeweils gewählte Variable zu sehen.
+
+
+Die folgende Darstellung zeigt die allgemeine Arbeitsweise bei der Definition eines Kodierschemas. Die einzelnen Punkte sind dann in separaten Texten dieses Abschnittes beschrieben.
+
+::: {.border}
+```{dot}
+digraph G {
+  rankdir="LR"
+  node [style=filled,color=white,shape=rounded,fontname="Arial"];
+  style=filled;
+  fontname="Arial";
+  color=lightblue;
+  subgraph cluster_0 {
+    m[label = "Prüfen\nSchemer-Zuweisung"];
+    i[label = "Zuweisen Item-Variable"];
+    label = "Eigenschaften";
+  }
+  subgraph cluster_1 {
+    p[label = "Prüfen/Anpassen\nElemente-ID"];
+    label = "Editor";
+  }
+  subgraph cluster_2 {
+    e[label = "Erstellen/Ändern\nKodierschema"];
+    label = "Kodierung";
+  }
+  subgraph cluster_3 {
+    k[label = "Prüfen\nKodierung"];
+    label = "Vorschau";
+  }
+
+  m -> p -> e
+  e -> k
+  e -> i
+  k -> e
+}
+```
+Arbeitsablauf beim Bearbeiten des Kodierschemas
+:::

@@ -1,0 +1,250 @@
+---
+lang: de
+title: "Gruppenmonitor"
+---
+
+::: {.callout-note}
+Der Gruppenmonitor wird auch manchmal als **Testleitungskonsole** bezeichnet.
+:::
+
+Die Zugangsdaten der Testpersonen sind Gruppen zugeordnet. Der Testleitung steht ein spezielles Instrument zur Verfügung, eine Gruppe während der Testdurchführung zu beobachten und die Teilnehmer ggf. im Test zu navigieren. Dieses Instrument trägt die Bezeichnung: **Gruppenmonitor**. Der Gruppenmonitor ist ein Teil des Testcenters, es handelt sich hier also nicht um eine separate Anwendung.
+
+Um den Gruppenmonitor nutzen zu können, muss dieser für die gewünschte Personengruppe angelegt werden. Zugangsdaten und die Zuweisung von Personen zu Gruppen werden in der Testtaker-XML eingerichtet. Der Gruppenmonitor wird mit Hilfe eines speziellen Zugangs mit dem Modus: `monitor-group` in der zu steuernden Gruppe angelegt.
+
+```{.xml}
+<Testtakers>
+
+  <Metadata>
+    <Description>Beispielhafte Testtaker-XML</Description>
+  </Metadata>
+
+  <CustomTexts></CustomTexts>
+
+  <Group id="sample_group" label="Primary Sample Group">
+    <Login mode="run-hot-return" name="Testperson1" pw="jk87zt">
+      <Booklet>BOOKLET.SAMPLE-1</Booklet>
+    </Login>
+     <Login mode="run-hot-return" name="Testperson2" pw="ghbv5">
+      <Booklet>BOOKLET.SAMPLE-1</Booklet>
+    </Login>
+     <Login mode="run-hot-return" name="Testperson3" pw="hg54d">
+      <Booklet>BOOKLET.SAMPLE-1</Booklet>
+    </Login>
+    <Login mode="monitor-group" name="test-group-monitor" pw="er45tz"/>
+  </Group>
+</Testtakers>
+
+```
+
+# Anmeldung
+
+Um den Gruppenmonitor zu starten, meldet sich die Testleitung mit entsprechenden Zugangsdaten (hier im Beispiel: **test-group-monitor** und **er45tz**) am Testcenter an. Anschließend öffnet sich der Gruppenmonitor und zeigt eine Liste aller verfügbaren Booklets und eine Schaltfläche um den Gruppenmonitor zu starten. Die entsprechende Schaltfläche ist zu finden unter der Bezeichnung: **Test-Gruppen Überwachung**.
+
+# Bedienung und Ansicht
+
+Der Gruppenmonitor ist in zwei Teile aufgeteilt, einen mittleren und einen linken Teil.
+Im linken Teil erfolgt die Testnavigation. Im mittleren Teil sind Informationen zu den Testpersonen, zum Fortschritt der Testung und weitere Informationen zu finden. Würde die oben gezeigte Testtaker-XML verwendet werden, sind hier Informationen zu den 3 Personen: Testperson1, Testperson2 und Testperson3 zu finden. Außerdem ist der Verbindungsstatus ersichtlich und es können Einstellungen bzgl. der Ansicht vorgenommen werden.
+
+::: {.callout-note}
+Der Gruppenmonitor bietet verschiedene Ansichtsoptionen. Alle nachfolgenden Bilder werden mit den folgenden Ansichtsoptionen dargestellt: **Spalten:** Teil und Abschnitt **Aktivität:** Nur Abschnitte. Wird diese Anleitung parallel zu einem geöffneten Gruppenmonitor verwendet, setzen Sie zuvor die Ansichtsoptionen entsprechend.
+:::
+
+Beispielhafte Ansicht eines Gruppenmonitors:
+
+![Übersicht Gruppenmonitor](assets/GM_Gesamtansicht.png)
+
+#### Testnavigation (links)
+
+Im linken Teil des Fensters sind Schalter für die Navigation zu finden. Diese haben erst eine Funktion, wenn im mittleren Teil (Aktivitätsfenster) eine entsprechende Testperson angewählt wurde. Die Testperson muss online sein, also den Test gerade bearbeiten. Es ist möglich die Testperson zu einem anderen Block im Booklet zu navigieren (springen), den Test zu pausieren, den Test zu sperren und den Test zu beenden. Ganz oben ist ein Schalter mit der Bezeichnung: **Alle Logins gleichzeitig steuern** zu sehen. Diese Funktion steht nur zur Verfügung, wenn alle in der Gruppe verwendeten Booklets eine ähnliche Struktur aufweisen. Sind bspw. in den Booklets unterschiedlich viele Blöcke enthalten, ist eine gemeinsame Steuerung nicht möglich. Da in diesem Beispiel unterschiedliche Booklets verwendet werden, ist der Schalter im Bild auch inaktiv.
+
+#### Systeminformationen und Einstellungen (rechts)
+
+Oben rechts ist in Form eines kleinen Symbols der Verbindungsstatus des Gruppenmonitors zu sehen. Bei einer fehlerfreien Verbindung sollte das Symbol grün sein und es sollte "LIVE" darin stehen.
+
+Ebenfalls oben rechts ist eine {{< fa gear >}}-Schaltfläche zu sehen. Mit Hilfe dieser kann die Ansicht für das mittlere Fenster, das Aktivitätsfenster, angepasst werden. Hier können bspw. Spalten hinzugefügt werden und Anzeigefilter gesetzt werden. Die Anzeigefilter sind unter: "Sitzungen ausblenden" zu finden. Hier gibt es 2 Standardfilter:
+
+* ausblenden von nicht gestarteten Tests
+* ausblenden von gesperrten Tests
+
+**Eigene Filter einrichten**
+
+Es ist möglich mithilfe der {{< fa plus >}}-Schaltfläche weitere individuelle Filter einzurichten. Im erweiterten Modus kann auf regulärer Ausdrücke gefiltert werden. Im Standard-Modus kann auf "gleich" und "enthält" gefiltert werden. Wird ein adaptives Testheft verwendet, kann auf die dort hinterlegten State-Elemente und auf die zugehörigen Options-Elemente gefiltert werden. Eigene Filter und Profile können aber auch direkt über die **Testtaker-XML** konfiguriert werden. Nachfolgend sind bspw. 2 Profile angelegt. Im ersten Profil ist auch bereits ein Filter angelegt. Dieser blendet die Spalte: `personLabel`aus, wenn diese gleich dem Wert "test" ist. Die angelegten Profile werden dann mit Hilfe ihrer ID im `<Login>`-Element eingebunden und somit nach der Anmeldung zur Auswahl angeboten.
+
+::: {.callout-note}
+Welche Attribute zur Verfügung stehen ist der [XML-Schemadefinition](https://github.com/iqb-berlin/testcenter/blob/master/definitions/vo_Testtakers.xsd) für die Testtaker-XML zu entnehmen. Die Attribute sind im xs-Element: **ProfileType** zu finden.
+:::
+
+```{.xml}
+
+<Profiles>
+    <GroupMonitor>
+      <Profile
+        id="small"
+        label="Nicht alles zeigen"
+        blockColumn="hide"
+        unitColumn="hide"
+        view="small"
+        groupColumn="hide"
+        bookletColumn="hide"
+        bookletStatesColumns=""
+        filterPending="yes"
+        filterLocked="yes"
+      >
+        <Filter label="Reduced Booklet" field="personLabel" type="equal" value="test" not="false"/>
+      </Profile>
+
+      <Profile
+        id="all"
+        label="Alles zeigen"
+        blockColumn="show"
+        unitColumn="show"
+        view="full"
+        groupColumn="show"
+        bookletColumn="show"
+        bookletStatesColumns="level bonus"
+        filterPending="yes"
+        filterLocked="no"      
+      >
+      </Profile>
+    </GroupMonitor>
+  </Profiles>
+
+
+ <Group id="sample_group" label="Primary Sample Group">
+
+    <Login mode="run-hot-return" name="test" pw="user123">
+      <Booklet codes="xxx yyy">BOOKLET.SAMPLE-1</Booklet>
+      <Booklet codes="xxx yyy">BOOKLET.SAMPLE-3</Booklet>
+    </Login>
+
+    <Login mode="monitor-group" name="test-group-monitor" pw="user123">
+      <Profile id="all" />
+      <Profile id="small" />      
+    </Login>
+  </Group>
+```
+
+Ein vorkonfigurierter Filter für ein adaptives Testheft, müsste dann so in einem Profil hinterlegt sein:
+
+```{.xml}
+<Filter label="Reduced Booklet" field="personLabel" type="equal" value="State-Id" subValue="Option-Id" not="false"/>
+```
+In den Profile kann außer der reinen Ansichtsoptionen auch ein Attribut mit funktionellen Auswirkungen auf die Steuerung des Gruppenmonitors verwendet werden. Dieses Attribut trägt den Namen: `autoselectNextBlock` und kann den Wert **no** und **yes** erhalten. Ist **yes** als Wert hinterlegt, wird nach jedem Sprung zu einem Block automatisch der nächste Block markiert. Ein erneuter Klick auf den Schalter "Springe zu" veranlasst dann einen Sprung zu dem automatisch markierten Block. Der Wert **no** verhindert diese automatische Markierung des nächsten Blocks. Das kann dann Sinn machen, wenn die Gefahr verringert werden soll, dass aus Versehen (Doppelklick auf "Springe zu") in einen Block gesprungen wird, der noch nicht an der Reihe ist.
+
+#### Aktivitätsfenster (Mitte)
+
+Hier ist eine Liste aller Personen einer Gruppe zu sehen. Außerdem sind die Struktur der Booklets, der Fortschritt der Testung und weitere hilfreiche Informationen in Spalten sortiert zu sehen.
+
+![Aktivitätsfenster](assets/GM_Personenliste_Testhefte.png)
+
+Welche Informationen den einzelnen Spalten dieser Liste zu entnehmen sind und welche Bedeutung diese habe, wird nachfolgend von links nach rechts beschrieben:
+
+**Spalte: Personenstatus**
+
+Hier wird der Status der Testperson angezeigt. Folgende Status gibt es:
+
+
+| Symbolik | Beschreibung |
+|:-:|-------------------------|
+|![](assets/GM_Status_offline.png) | Test noch nicht gestartet. | 
+|![](assets/GM_Status_Connection_Websocket.png) |Test läuft, Verbindung ist live.|
+|![](assets/GM_Status_Connection_polling.png) |Test läuft. Testläufe und Teilnehmer sind im Polling-Modus verbunden. Dies ist ein Fallback für den Fall, dass der Live-Modus aufgrund des Browsers des Betreuers oder eines technischen Fehlers nicht möglich ist. Die Leistung des Monitors ist hierbei nicht so gleichmäßig.|
+|![](assets/GM_Status_ok.png) |Der Test scheint zu laufen, aber der Verbindungstyp ist unbekannt. Dies ist mehr oder weniger ein Fallback-Zustand, der anzeigt, dass außer seiner Existenz nichts über den Test bekannt ist. Dies kann bei verschiedenen Fehlerszenarien oder Fehlkonfigurationen der Fall sein, sollte aber im Allgemeinen nicht vorkommen. Es sollte untersucht werden, aber höchstwahrscheinlich kann der Test sicher fortgesetzt werden, da der Fehler eher auf der Seite des Monitors liegt.|
+|![](assets/GM_Status_Idle.png) |Test ist 5 Minuten oder länger inaktiv.|
+|![](assets/GM_Status_Pause.png) |Test ist pausiert.|
+|![](assets/GM_Status_Locked.png) |Test ist gesperrt.|
+|![](assets/GM_Status_Focus_lost.png) |Fokus nicht mehr auf Browserfenster. Testperson ist bspw. auf einem anderen Browser-Tab.|
+|![](assets/GM_Status_Connection_lost.png) |Browserfenster wurde geschlossen oder Netzwerkverbindung ist gestört.|
+|![](assets/GM_Status_Controller_terminated.png) |Testausführung wurde beendet und kann wieder aufgenommen werden.|
+
+
+[Hier](https://pages.cms.hu-berlin.de/iqb/testcenter/pages/test-session-super-states.html) ist auch eine automatisch generierte Liste in Englisch zu finden.
+
+**Spalte: Teilnehmer**
+
+Es ist im Beispielbild eine längere Kennung zu sehen, die sich wie folgt zusammensetzt:
+
+* Benutzername der Anmeldung, in diesem Fall: **iea-testtaker-bista2217**
+* der zur Anmeldung eingegebene Code, in diesem Fall: **abc1**, **abc2** usw..
+
+**Spalte: Teil**
+
+Hier sind die Booklets zu sehen, die einem Zugangscode zugeordnet sind. Bspw. sind dem Code: **abc1** drei Booklets zugeordnet, nämlich: **Anleitung**, **Teil1**, **Teil2** und **Teil3**.
+
+**Spalte: Abschnitt**
+
+Ist der Test gestartet wird hier der Abschnitt innerhalb eines Blocks angezeigt.
+
+**Spalte: Aktivität**
+
+Es ist die Bookletstruktur zu sehen und an welcher Stelle sich die Testperson befindet. Sind Blöcke im Booklet vorhanden, wird die Anzahl der enthaltenen Aufgaben im Block angezeigt. Zu jedem Block in einem Booklet werden festgelegte Beschränkungen angezeigt. Vor den jeweiligen beschränkten Blöcken ist dann bspw. eine kleine Uhr oder ein Schlosssymbol zu sehen. Das Schloss öffnet sich, wenn das richtige Kennwort für den Block eingegeben wurde. Ist die vorgeschriebene Zeit für den Block abgelaufen, ist die Uhr durchgestrichen. Zusätzlich wird bei zeitbeschränkten Blöcken die verbleibende Zeit vor den Blöcken dargestellt. Wie im Bild zu sehen ist, sind die Zeilen der Anmeldungen farblich gekennzeichnet. Die farbliche Kennzeichnung zeigt auf, welche Booklets eine ähnliche Struktur habe und gemeinsam gesteuert werden könnten.
+
+# Testnavigation (Steuerung)
+
+::: {.callout-note}
+Es ist möglich mehrere Personen gleichzeitig zu steuern. Hierfür kann der Schalter: **Alle Logins gleichzeitig steuern** verwendet werden. Dieser Schalter kann nur aktiviert werden, wenn die verwendeten Booklets eine ähnliche Struktur aufweisen. Das betrifft hauptsächlich die Anzahl der Blöcke in einem Booklet. Werden Booklets mit unterschiedlicher Anzahl von Blöcken verwendet, ist der Schalter inaktiv.
+:::
+
+#### Pausieren
+
+Markieren Sie im Aktivitätsfenster die gewünschte Person und betätigen Sie anschließend die Schaltfläche: **Pause**. Ist der Test erfolgreich pausiert, erscheint das entsprechende {{< fa pause >}}-Symbol bei der Person. Außerdem erscheint im Browser der Person eine entsprechende Meldung, dass der Test pausiert wurde. Soll das Pausieren aufgehoben werden, ist erneut die entsprechende Person zu markieren und anschließend ist die Schaltfläche: **Weiter** zu betätigen. Der Test wird dann fortgeführt.
+
+#### Springe zu Block
+
+Besteht ein Testheft aus mehreren Blöcken (Abschnitten), kann mittels Gruppenmonitor eine Testpersonen zu einem bestimmten Block navigiert werden. Hierfür muss zuvor der Block zu dem gesprungen werden soll selektiert werden. Wie die Selektierung eines Blocks erfolgt, hängt davon ab, ob alle Personen gleichzeitig gesteuert werden oder nicht.
+
+**Schalter: "Alle Tests gleichzeitig steuern" ein:**
+
+Durch einen Maus-Linksklick auf einen Block innerhalb einer Personenzeile, werden automatisch alle Blöcke in der selben Spalte selektiert und die zugehörigen Personen werden aktiviert (Haken vor Person wird gesetzt). Ein Klick auf "Springe zu ..." bewirkt dann einen Wechsel aller Personen in den gewählten Block. Durch einen Maus-Rechtsklick auf einen der selektierten Blöcke, wird die Selektierung aller Blöcke wieder aufgehoben.
+
+**Schalter: "Alle Tests gleichzeitig steuern" aus:**
+
+Um Blöcke für einzelne Personen zu selektieren, ist es nicht notwendig den Haken vor einer Personen zu wählen. Es reicht mit einem Maus-Linksklick auf den zu selektierenden Block zu klicken. Dies bewirkt sowohl eine Selektierung des Blocks als auch der Personen der jeweiligen Zeile. Bei einem weiteren Maus-Linksklick werden automatisch alle Blöcke in der selben Spalte selektiert und die zugehörigen Personen werden aktiviert (Haken vor Person wird gesetzt). Durch einen Maus-Rechtsklick auf einen der selektierten Blöcke wird die Selektierung wieder aufgehoben.
+
+Nachfolgend wird der zweite Block der Anmeldung: **abc2** des Booklets: **Teil1** markiert.
+
+![Block markieren](assets/GM_Block_markieren.png)
+
+Wie zu sehen ist, wird bei erfolgreicher Markierung der Block entsprechend gekennzeichnet. Nun wird der Schalter: **Springe zu** betätigt. Die gewählte Person wird nun in den zweiten Block navigiert.
+
+::: {.callout-important}
+Navigiert die Testleitung eine Person aus einem zeitbeschränkten Block, wird dieser Block gesperrt und die Person kann nicht mehr darauf zugreifen, auch wenn die Bearbeitung noch nicht abgeschlossen war. Durch ein erneutes "Springe zu" in einen bereits gesperrten Block, kann der Block im Gruppenmonitor wieder entsperrt werden (ab Version 15.4.0). Wurde der Block entsperrt, beginnt die festlegte Zeit wieder von vorne. Die Testleitung muss dann individuell entscheiden, ob die Testperson noch einmal die volle Zeit im Block verbringen darf oder ob die Testperson vor Ablauf der Zeit den Block wieder verlassen muss. Das Entsperren von Blöcken birgt durch den Neustart der Zeit das Risiko einer Testverfälschung und sollte mit Bedacht verwendet werden. Gibt es bspw. technische Probleme, die verhindern, dass eine Testperson einen Block vollständig bearbeiten kann, ist das Verlassen und Wiederbetreten des Blocks durchaus legitim.
+:::
+
+::: {.callout-note}
+Wird in einen Block gesprungen, der über ein Zugangskennwort verfügt, entfällt die Kennwortabfrage bei der Testperson. Das Kennwort wird nur abgefragt, wenn eine Testperson eigenständig in einen beschränkten Block navigiert. Auf diese Weise können Testpersonen besser zusammengehalten werden und alle befinden sich in etwa an der gleichen Stelle im Testverlauf.
+:::
+
+#### Test beenden
+
+Wird der Schalter: **Test beenden** betätigt, wird das Testheft für alle Personen beendet und gesperrt. Außerdem wird der Gruppenmonitor verlassen. Es müssen zuvor keine Personen in der Liste markiert werden, damit der Schalter Funktion hat.
+
+#### Testheft entsperren
+
+Ein Testheft kann mit Hilfe des Schalters: **Test entsperren** wieder entsperrt werden. Dazu wird die jeweilige Person selektiert und der Schalter: **Test entsperren** betätigt. Ein Testheft kann aus folgenden Gründen gesperrt sein:
+
+* Es wurde der Schalter: **Test beenden** betätigt. Das bewirkt eine Sperrung aller Testhefte und ein Verlassen des Gruppenmonitors. Nach erneuter Anmeldung am Gruppenmonitor können die Testhefte aber wieder entsperrt werden.
+* In der Testheftkonfiguration gibt es den Parameter: `lock_test_on_termination`. Dieser erhält standardmäßig den Wert **OFF**. Ist der Wert **ON** wird der Test nach Beendigung durch die Testperson gesperrt.
+
+::: {.callout-note}
+Für die Entsperrung eines Blocks kann dieser Schalter nicht verwendet werden.
+:::
+
+# Troubleshooting
+
+#### Testperson kann die Aufgabe nicht bearbeiten
+
+**Fehler:** 
+Die Testperson kann eine Aufgabe nicht bearbeiten, weil die Inhalte der Aufgabe nicht dargestellt werden. Da die Navigation im Booklet zu anderen Aufgaben eventuell nur möglich ist nachdem eine Aufgabe vollständig beantwortet wurde, kann die Testperson nicht mit der Testung fortfahren.
+
+**Ursache:**
+Die Aufgabeninhalte (Video, Grafik etc.) können eventuell nicht vollständig geladen werden.
+
+**Abhilfe:**
+Navigieren Sie die Person wieder zum Anfang des Blocks in dem sich die Aufgabe befindet. Sie können im Gruppenmonitor einfach den Block markieren in dem sich die Person aktiv befindet und betätigen dann den Schalter: **Springe zu**. Auf diese Weise wird der Block nicht verlassen, sondern die Person wird wieder an den Anfang des Blocks geleitet. Dies ist im Falle eines zeitbeschränkten Blocks zu empfehlen, da beim Verlassen eines solchen Blocks der Block gesperrt werden würde.
+
+
+
+
+
+
