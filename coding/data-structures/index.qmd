@@ -1,7 +1,0 @@
----
-lang: de
-title: "Datenstrukturen"
----
-
-* [response](response.qmd)
-* [coding-scheme](coding-scheme.qmd)
