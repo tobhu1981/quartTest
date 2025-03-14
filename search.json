@@ -503,7 +503,7 @@
     "href": "news/index.html",
     "title": "TBA aktuell",
     "section": "",
-    "text": "Neu: Speedtest Player+Editor\n                    \n                \n                \n                    \n                        Für die Durchführung von Speedtests wurde ein neuer Player und Editor veröffentlicht.\n                    \n                \n            \n            \n                10.01.2025\n                \n                    \n                        \n                            Verona-Module\n                        \n                    \n                        \n                            Speedtest\n                        \n                    \n                \n            \n        \n    \n\n    \n        \n            \n                \n                    \n                        Releaseplan für das Testcenter veröffentlicht\n                    \n                \n                \n                    \n                        Um die Planung beim Einsatz des IQB-Testcenters zu verbessern, gibt es ab sofort einen Release-Plan.\n                    \n                \n            \n            \n                14.11.2024\n                \n                    \n                        \n                            Testcenter\n                        \n                    \n                        \n                            Release\n                        \n                    \n                \n            \n        \n    \n\n\nKeine Treffer\n Zurück nach oben",
+    "text": "Neu: Speedtest Player+Editor\n                    \n                \n                \n                    \n                        Für die Durchführung von Speedtests wurde ein neuer Player und Editor veröffentlicht.\n                    \n                \n            \n            \n                10.01.2025\n                \n                    \n                        \n                            Verona-Module\n                        \n                    \n                        \n                            Speedtest\n                        \n                    \n                \n            \n        \n    \n\n    \n        \n            \n                \n                    \n                        Releaseplan für das Testcenter veröffentlicht\n                    \n                \n                \n                    \n                        Um die Planung beim Einsatz des IQB-Testcenters zu verbessern, gibt es ab sofort einen Release-Plan.\n                    \n                \n            \n            \n                14.11.2024\n                \n                    \n                        \n                            Testcenter\n                        \n                    \n                        \n                            Release\n                        \n                    \n                \n            \n        \n    \n\n\n\nKeine Treffer\n\n Zurück nach oben",
     "crumbs": [
       "Aktuell"
     ]
@@ -737,163 +737,7 @@
     "href": "tasks/design/basic/Tabellen_Assistent/index.html#elemente-editieren",
     "title": "Verbundelement Tabelle",
     "section": "Elemente Editieren",
-    "text": "Elemente Editieren\nHier noch einmal die Anleitungen zum Editieren der verschiedenen Elemente:",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#textelement-editieren",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#textelement-editieren",
-    "title": "Verbundelement Tabelle",
-    "section": "### Textelement editieren",
-    "text": "### Textelement editieren",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de",
-    "title": "Verbundelement Tabelle",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lässt sich das Textelement editieren.\nIm ersten Teil lassen sich die ID (hier „text_1“) und mit einem Klick auf das Stift-Symbol auch der Text editieren.\n\nIm zweiten Teil lässt sich die Anzahl der Spalten einstellen.\n\nIn manchen Fällen (z.B. bei Gedichten oder Zeitungsartikeln) kann es sinnvoll sein, die Anzahl der Spalten anzupassen:\n\n\n\n\n\n\n\n\n\nAnzahl der Spalten: 1\n\n\n\n\n\n\n\nAnzahl der Spalten: 2\n\n\n\n\n\n\n\nAnzahl der Spalten: 3\n\n\n\n\n\nEbenso lassen sich im Textelement Markierfarben einstellen. Dies ist nur bei Stimulustexten sinnvoll. In der Sekundarstufe I werden Markierfarben vor allem als Werkzeug zur Texterschließung eingesetzt. In der Grundschule findet diese Einstellung hauptsächlich im Rahmen eines (Markier-)Items, in der Regel mit der gelben Markierfarbe, Anwendung:\n\n\n\n\n\n\n\n\n\nEinstellung im Textelement des Stimulus\n\n\n\n\n\n\n\nVorschau (Stimulustext)\n\n\n\n\n\nDer Radiergummiknopf  wird mit dem Einstellen von mindestens einer Markierfarbe automatisch hinzugefügt und kann nicht entfernt werden.\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) der Text maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Textelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 400",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#eingabefeld-editieren",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#eingabefeld-editieren",
-    "title": "Verbundelement Tabelle",
-    "section": "### Eingabefeld editieren",
-    "text": "### Eingabefeld editieren",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-1",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-1",
-    "title": "Verbundelement Tabelle",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf ein Eingabefeld die Einstellungen des angelegten Antwortfelds anpassen.\nIm ersten Teil lassen sich die ID (hier „text-field_1“) und die Beschriftung anpassen. Beschriftungen werden im Normalfall hier nicht verwendet, sie funktionieren als Vorbelegung und bleiben auch während des Ausfüllens des Eingabefelds sichtbar.\n\nWeiter unten lassen sich ein Schreibschutz und eine Vorbelegung für Beispiele einstellen.\n\nAußerdem kann die Maximalbreite des Eingabefelds angepasst werden. Die Voreinstellungen aus dem Assistenten sind hier „lang“ (ganze Zeile – keine Maximalbreite), mittel (500 px), kurz (250 px) und sehr kurz (125 px).",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#kontrollkästchen",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#kontrollkästchen",
-    "title": "Verbundelement Tabelle",
-    "section": "### Kontrollkästchen",
-    "text": "### Kontrollkästchen",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-2",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-2",
-    "title": "Verbundelement Tabelle",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf ein Kontrollkästchen die Einstellungen anpassen.\n\nIm ersten Teil lassen sich die ID (hier „checkbox_1“) und die Beschriftung anpassen. Beschriftungen werden im Normalfall hier nicht verwendet, sie funktionieren als Vorbelegung und bleiben auch während des Ausfüllens des Eingabefelds sichtbar.\nWeiter unten lassen sich ein Schreibschutz und eine Vorbelegung für Beispiele einstellen.",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#ablageliste",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#ablageliste",
-    "title": "Verbundelement Tabelle",
-    "section": "### Ablageliste",
-    "text": "### Ablageliste",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-3",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-3",
-    "title": "Verbundelement Tabelle",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#bildelement",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#bildelement",
-    "title": "Verbundelement Tabelle",
-    "section": "### Bildelement",
-    "text": "### Bildelement",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-4",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-4",
-    "title": "Verbundelement Tabelle",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf das Bild Einstellungen vornehmen. Hier kann die ID („image_1“) angepasst werden. Ebenso kann mit einem Klick auf den „Medienquelle ändern“-Knopf im sich öffnenden Fenster die bereits eingefügte Grafik durch eine andere Grafik ersetzt werden.\n\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) die eingefügte Grafik maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Bildelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 250",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#audioelement",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#audioelement",
-    "title": "Verbundelement Tabelle",
-    "section": "### Audioelement",
-    "text": "### Audioelement",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Verbundelement Tabelle"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-5",
-    "href": "tasks/design/basic/Tabellen_Assistent/index.html#lang-de-5",
-    "title": "Verbundelement Tabelle",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich die Einstellungen des Audioelements bearbeiten.\nHier kann die ID („audio_1“) angepasst werden. Ebenso kann mit einem Klick auf den „Medienquelle ändern“-Knopf die Audio-Datei nachträglich geändert werden.\n\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) das Audio maximal sein soll. Die voreingestellten 500 Pixel aus den Assistenten sind IQB-Standard und sollten nur in begründeten Ausnahmefällen angepasst werden. Sollte keine Maximalbreite erwünscht sein, kann das Häkchen bei „Maximalbreite setzen“ entfernt werden.",
+    "text": "Elemente Editieren\nHier noch einmal die Anleitungen zum Editieren der verschiedenen Elemente:\n\nTextelement editieren\nIm rechten Reiter „Eigenschaften“ lässt sich das Textelement editieren.\nIm ersten Teil lassen sich die ID (hier „text_1“) und mit einem Klick auf das Stift-Symbol auch der Text editieren.\n\nIm zweiten Teil lässt sich die Anzahl der Spalten einstellen.\n\nIn manchen Fällen (z.B. bei Gedichten oder Zeitungsartikeln) kann es sinnvoll sein, die Anzahl der Spalten anzupassen:\n\n\n\n\n\n\n\n\n\nAnzahl der Spalten: 1\n\n\n\n\n\n\n\nAnzahl der Spalten: 2\n\n\n\n\n\n\n\nAnzahl der Spalten: 3\n\n\n\n\n\nEbenso lassen sich im Textelement Markierfarben einstellen. Dies ist nur bei Stimulustexten sinnvoll. In der Sekundarstufe I werden Markierfarben vor allem als Werkzeug zur Texterschließung eingesetzt. In der Grundschule findet diese Einstellung hauptsächlich im Rahmen eines (Markier-)Items, in der Regel mit der gelben Markierfarbe, Anwendung:\n\n\n\n\n\n\n\n\n\nEinstellung im Textelement des Stimulus\n\n\n\n\n\n\n\nVorschau (Stimulustext)\n\n\n\n\n\nDer Radiergummiknopf  wird mit dem Einstellen von mindestens einer Markierfarbe automatisch hinzugefügt und kann nicht entfernt werden.\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) der Text maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Textelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 400\n\n\n\n\n\n\n\nEingabefeld editieren\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf ein Eingabefeld die Einstellungen des angelegten Antwortfelds anpassen.\nIm ersten Teil lassen sich die ID (hier „text-field_1“) und die Beschriftung anpassen. Beschriftungen werden im Normalfall hier nicht verwendet, sie funktionieren als Vorbelegung und bleiben auch während des Ausfüllens des Eingabefelds sichtbar.\n\nWeiter unten lassen sich ein Schreibschutz und eine Vorbelegung für Beispiele einstellen.\n\nAußerdem kann die Maximalbreite des Eingabefelds angepasst werden. Die Voreinstellungen aus dem Assistenten sind hier „lang“ (ganze Zeile – keine Maximalbreite), mittel (500 px), kurz (250 px) und sehr kurz (125 px).\n\n\n\nKontrollkästchen\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf ein Kontrollkästchen die Einstellungen anpassen.\n\nIm ersten Teil lassen sich die ID (hier „checkbox_1“) und die Beschriftung anpassen. Beschriftungen werden im Normalfall hier nicht verwendet, sie funktionieren als Vorbelegung und bleiben auch während des Ausfüllens des Eingabefelds sichtbar.\nWeiter unten lassen sich ein Schreibschutz und eine Vorbelegung für Beispiele einstellen.\n\n\nAblageliste\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.\n\n\n\nBildelement\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf das Bild Einstellungen vornehmen. Hier kann die ID („image_1“) angepasst werden. Ebenso kann mit einem Klick auf den „Medienquelle ändern“-Knopf im sich öffnenden Fenster die bereits eingefügte Grafik durch eine andere Grafik ersetzt werden.\n\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) die eingefügte Grafik maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Bildelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 250\n\n\n\n\n\n\n\nAudioelement\nIm rechten Reiter „Eigenschaften“ lassen sich die Einstellungen des Audioelements bearbeiten.\nHier kann die ID („audio_1“) angepasst werden. Ebenso kann mit einem Klick auf den „Medienquelle ändern“-Knopf die Audio-Datei nachträglich geändert werden.\n\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) das Audio maximal sein soll. Die voreingestellten 500 Pixel aus den Assistenten sind IQB-Standard und sollten nur in begründeten Ausnahmefällen angepasst werden. Sollte keine Maximalbreite erwünscht sein, kann das Häkchen bei „Maximalbreite setzen“ entfernt werden.",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -1061,21 +905,8 @@
     "objectID": "tasks/design/basic/GGB_Assistent/index.html#editieren-eines-textelements",
     "href": "tasks/design/basic/GGB_Assistent/index.html#editieren-eines-textelements",
     "title": "GeoGebra Assistent",
-    "section": "## Editieren eines Textelements",
-    "text": "## Editieren eines Textelements",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "GeoGebra Assistent"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/GGB_Assistent/index.html#lang-de",
-    "href": "tasks/design/basic/GGB_Assistent/index.html#lang-de",
-    "title": "GeoGebra Assistent",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lässt sich das Textelement editieren.\nIm ersten Teil lassen sich die ID (hier „text_1“) und mit einem Klick auf das Stift-Symbol auch der Text editieren.\n\nIm zweiten Teil lässt sich die Anzahl der Spalten einstellen.\n\nIn manchen Fällen (z.B. bei Gedichten oder Zeitungsartikeln) kann es sinnvoll sein, die Anzahl der Spalten anzupassen:\n\n\n\n\n\n\n\n\n\nAnzahl der Spalten: 1\n\n\n\n\n\n\n\nAnzahl der Spalten: 2\n\n\n\n\n\n\n\nAnzahl der Spalten: 3\n\n\n\n\n\nEbenso lassen sich im Textelement Markierfarben einstellen. Dies ist nur bei Stimulustexten sinnvoll. In der Sekundarstufe I werden Markierfarben vor allem als Werkzeug zur Texterschließung eingesetzt. In der Grundschule findet diese Einstellung hauptsächlich im Rahmen eines (Markier-)Items, in der Regel mit der gelben Markierfarbe, Anwendung:\n\n\n\n\n\n\n\n\n\nEinstellung im Textelement des Stimulus\n\n\n\n\n\n\n\nVorschau (Stimulustext)\n\n\n\n\n\nDer Radiergummiknopf  wird mit dem Einstellen von mindestens einer Markierfarbe automatisch hinzugefügt und kann nicht entfernt werden.\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) der Text maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Textelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 400",
+    "section": "Editieren eines Textelements",
+    "text": "Editieren eines Textelements\nIm rechten Reiter „Eigenschaften“ lässt sich das Textelement editieren.\nIm ersten Teil lassen sich die ID (hier „text_1“) und mit einem Klick auf das Stift-Symbol auch der Text editieren.\n\nIm zweiten Teil lässt sich die Anzahl der Spalten einstellen.\n\nIn manchen Fällen (z.B. bei Gedichten oder Zeitungsartikeln) kann es sinnvoll sein, die Anzahl der Spalten anzupassen:\n\n\n\n\n\n\n\n\n\nAnzahl der Spalten: 1\n\n\n\n\n\n\n\nAnzahl der Spalten: 2\n\n\n\n\n\n\n\nAnzahl der Spalten: 3\n\n\n\n\n\nEbenso lassen sich im Textelement Markierfarben einstellen. Dies ist nur bei Stimulustexten sinnvoll. In der Sekundarstufe I werden Markierfarben vor allem als Werkzeug zur Texterschließung eingesetzt. In der Grundschule findet diese Einstellung hauptsächlich im Rahmen eines (Markier-)Items, in der Regel mit der gelben Markierfarbe, Anwendung:\n\n\n\n\n\n\n\n\n\nEinstellung im Textelement des Stimulus\n\n\n\n\n\n\n\nVorschau (Stimulustext)\n\n\n\n\n\nDer Radiergummiknopf  wird mit dem Einstellen von mindestens einer Markierfarbe automatisch hinzugefügt und kann nicht entfernt werden.\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) der Text maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Textelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 400",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -1087,21 +918,8 @@
     "objectID": "tasks/design/basic/GGB_Assistent/index.html#editieren-eines-geogebra-items",
     "href": "tasks/design/basic/GGB_Assistent/index.html#editieren-eines-geogebra-items",
     "title": "GeoGebra Assistent",
-    "section": "## Editieren eines GeoGebra-Items",
-    "text": "## Editieren eines GeoGebra-Items",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "GeoGebra Assistent"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/GGB_Assistent/index.html#lang-de-1",
-    "href": "tasks/design/basic/GGB_Assistent/index.html#lang-de-1",
-    "title": "GeoGebra Assistent",
-    "section": "lang: de",
-    "text": "lang: de\nMit einem Klick auf die GeoGebra-Datei im Editor, öffnet sich im rechten Reiter „Eigenschaften“ das GeoGebra-Element, in dem Anpassungen vorgenommen werden können.\nIm ersten Teil lässt sich die ID (hier „geometry_2“) editieren und mit einem Klick auf das Stift-Symbol auch die vorhandene GeoGebra-Datei ersetzen.\n\nIm Aufklapp-Menü „Ergebnisvariablen“ können die für die Auswertung relevanten Variablen in GeoGebra ausgewählt werden. Diese werden dann gesondert aus der GeoGebra ausgelesen.\n\nIm unteren Teil können noch Breite und Höhe des GeoGebra-Elements eingestellt werden. Dies verändert hier nicht nur die Breite und Höhe des Elements, sondern auch die Größe des angezeigten Ausschnitts aus der GeoGebra-Datei. Falls der gewünschte Ausschnitt nicht in die gewünschte Größe passt, muss er in GeoGebra verkleinert werden. Wie das geht und vieles Weiteres zur Aufgabenentwicklung mit GeoGebra ist in der GGB-Anleitung erklärt.",
+    "section": "Editieren eines GeoGebra-Items",
+    "text": "Editieren eines GeoGebra-Items\nMit einem Klick auf die GeoGebra-Datei im Editor, öffnet sich im rechten Reiter „Eigenschaften“ das GeoGebra-Element, in dem Anpassungen vorgenommen werden können.\nIm ersten Teil lässt sich die ID (hier „geometry_2“) editieren und mit einem Klick auf das Stift-Symbol auch die vorhandene GeoGebra-Datei ersetzen.\n\nIm Aufklapp-Menü „Ergebnisvariablen“ können die für die Auswertung relevanten Variablen in GeoGebra ausgewählt werden. Diese werden dann gesondert aus der GeoGebra ausgelesen.\n\nIm unteren Teil können noch Breite und Höhe des GeoGebra-Elements eingestellt werden. Dies verändert hier nicht nur die Breite und Höhe des Elements, sondern auch die Größe des angezeigten Ausschnitts aus der GeoGebra-Datei. Falls der gewünschte Ausschnitt nicht in die gewünschte Größe passt, muss er in GeoGebra verkleinert werden. Wie das geht und vieles Weiteres zur Aufgabenentwicklung mit GeoGebra ist in der GGB-Anleitung erklärt.",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -1225,22 +1043,8 @@
     "objectID": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_neben_Ziel/index.html#editieren-eines-dad-items",
     "href": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_neben_Ziel/index.html#editieren-eines-dad-items",
     "title": "Drag & Drop einseitig - Zuordnung – Elementliste neben Ziellisten (nur für kurze Elemente oder einseitige Aufgaben)",
-    "section": "## Editieren eines DaD Items",
-    "text": "## Editieren eines DaD Items",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Drag & Drop",
-      "Drag & Drop einseitig - Zuordnung – Elementliste neben Ziellisten (nur für kurze Elemente oder einseitige Aufgaben)"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_neben_Ziel/index.html#lang-de",
-    "href": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_neben_Ziel/index.html#lang-de",
-    "title": "Drag & Drop einseitig - Zuordnung – Elementliste neben Ziellisten (nur für kurze Elemente oder einseitige Aufgaben)",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.",
+    "section": "Editieren eines DaD Items",
+    "text": "Editieren eines DaD Items\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -1323,22 +1127,8 @@
     "objectID": "tasks/design/basic/DaD/DaD_Assistent_Sortieren/index.html#editieren-eines-dad-items",
     "href": "tasks/design/basic/DaD/DaD_Assistent_Sortieren/index.html#editieren-eines-dad-items",
     "title": "Drag & Drop einseitig – Sortieren",
-    "section": "## Editieren eines DaD Items",
-    "text": "## Editieren eines DaD Items",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Drag & Drop",
-      "Drag & Drop einseitig – Sortieren"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/DaD/DaD_Assistent_Sortieren/index.html#lang-de",
-    "href": "tasks/design/basic/DaD/DaD_Assistent_Sortieren/index.html#lang-de",
-    "title": "Drag & Drop einseitig – Sortieren",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.",
+    "section": "Editieren eines DaD Items",
+    "text": "Editieren eines DaD Items\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -1551,7 +1341,7 @@
     "href": "tasks/design/basic/index.html",
     "title": "Anlegen von Aufgaben im Standardmodus",
     "section": "",
-    "text": "Die allgemeine Anleitung für das Anlegen von Aufgaben im Standardmodus ist hier zu finden.\n\n\n\n\n\n\n  \n    \n      Textstimulus\n      \n        Anleitung für den Text Stimulus Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Audiostimulus\n      \n        Anleitung für den Audio Stimulus Assistenten\n      \n      \n        \n      \n    \n  \n    \n      MC mit Text\n      \n        Anleitung für den MC mit Text Assistenten\n      \n      \n        \n      \n    \n  \n    \n      MC mit Bild\n      \n        Anleitung für den MC mit Bild Assistenten\n      \n      \n        \n      \n    \n  \n    \n      CMC (Complex Multiple Choice)\n      \n        Anleitung für den CMC Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Antwortfelder\n      \n        Anleitung für den Antwortfelder Assistenten (Eingabefelder und Eingabebereiche)\n      \n      \n        \n      \n    \n  \n    \n      Drag and Drop - Zuordnen\n      \n        Anleitung für den Assistent von Drag & Drop einseitig - Zuordnung – Elementliste über Ziellisten\n      \n      \n        \n      \n    \n  \n    \n      Drag and Drop - Zuordnen\n      \n        Anleitung für den Assistent von Drag & Drop einseitig - Zuordnung – Elementliste neben Ziellisten\n      \n      \n        \n      \n    \n  \n    \n      Drag and Drop - Sortieren\n      \n        Anleitung für den Drag and Drop Sortieren Assistenten einseitig\n      \n      \n        \n      \n    \n  \n    \n      Markieren\n      \n        Anleitung für den Markieren Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Rechenkästchen\n      \n        Anleitung für den Rechenkästchen Assistenten\n      \n      \n        \n      \n    \n  \n    \n      GeoGebra\n      \n        Anleitung für den GeoGebra Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Lückentext\n      \n        Anleitung für das Verbundelement Lückentext\n      \n      \n        \n      \n    \n  \n    \n      Tabelle\n      \n        Anleitung für das Verbundelement Tabelle\n      \n      \n        \n      \n    \n  \n\nKeine Treffer\n Zurück nach oben",
+    "text": "Die allgemeine Anleitung für das Anlegen von Aufgaben im Standardmodus ist hier zu finden.\n\n\n\n\n\n\n  \n    \n      Textstimulus\n      \n        Anleitung für den Text Stimulus Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Audiostimulus\n      \n        Anleitung für den Audio Stimulus Assistenten\n      \n      \n        \n      \n    \n  \n    \n      MC mit Text\n      \n        Anleitung für den MC mit Text Assistenten\n      \n      \n        \n      \n    \n  \n    \n      MC mit Bild\n      \n        Anleitung für den MC mit Bild Assistenten\n      \n      \n        \n      \n    \n  \n    \n      CMC (Complex Multiple Choice)\n      \n        Anleitung für den CMC Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Antwortfelder\n      \n        Anleitung für den Antwortfelder Assistenten (Eingabefelder und Eingabebereiche)\n      \n      \n        \n      \n    \n  \n    \n      Drag and Drop - Zuordnen\n      \n        Anleitung für den Assistent von Drag & Drop einseitig - Zuordnung – Elementliste über Ziellisten\n      \n      \n        \n      \n    \n  \n    \n      Drag and Drop - Zuordnen\n      \n        Anleitung für den Assistent von Drag & Drop einseitig - Zuordnung – Elementliste neben Ziellisten\n      \n      \n        \n      \n    \n  \n    \n      Drag and Drop - Sortieren\n      \n        Anleitung für den Drag and Drop Sortieren Assistenten einseitig\n      \n      \n        \n      \n    \n  \n    \n      Markieren\n      \n        Anleitung für den Markieren Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Rechenkästchen\n      \n        Anleitung für den Rechenkästchen Assistenten\n      \n      \n        \n      \n    \n  \n    \n      GeoGebra\n      \n        Anleitung für den GeoGebra Assistenten\n      \n      \n        \n      \n    \n  \n    \n      Lückentext\n      \n        Anleitung für das Verbundelement Lückentext\n      \n      \n        \n      \n    \n  \n    \n      Tabelle\n      \n        Anleitung für das Verbundelement Tabelle\n      \n      \n        \n      \n    \n  \n\n\nKeine Treffer\n\n Zurück nach oben",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -3117,7 +2907,7 @@
     "href": "Testcenter/Studie_durchfuehren/Szenarien/index.html",
     "title": "Einsatz-Szenarien",
     "section": "",
-    "text": "dewffwefwefwe fwef we wew\n\n\n\n\n\n\n    \n        \n            \n                Demonstration\n            \n            \n                Typische Aufgaben werden im Internet veröffentlicht, damit Interessierte ein Bild vom Test bekommen.\n            \n        \n    \n\n    \n        \n            \n                Large Scale Assessments\n            \n            \n                osaj spodjv psodjv psdojvpsdoj vpjsdpovj spdj vposdj vposdj pvojsdpovjpsodjv posdj vpojsd povjpsdoj vpsdpvo sdpojvp sdojvposd.\n            \n        \n    \n\n    \n        \n            \n                Übungsmodule\n            \n            \n                Im Vorfeld des Tests absolvieren die Testpersonen ähnliche Tests, ohne dass bewertet wird. Sie werden auf diese Art vertraut mit den die typischen Interaktionen und der Navigation\n            \n        \n    \n\nKeine Treffer\n Zurück nach oben"
+    "text": "dewffwefwefwe fwef we wew\n\n\n\n\n\n\n    \n        \n            \n                Demonstration\n            \n            \n                Typische Aufgaben werden im Internet veröffentlicht, damit Interessierte ein Bild vom Test bekommen.\n            \n        \n    \n\n    \n        \n            \n                Large Scale Assessments\n            \n            \n                osaj spodjv psodjv psdojvpsdoj vpjsdpovj spdj vposdj vposdj pvojsdpovjpsodjv posdj vpojsd povjpsdoj vpsdpvo sdpojvp sdojvposd.\n            \n        \n    \n\n    \n        \n            \n                Übungsmodule\n            \n            \n                Im Vorfeld des Tests absolvieren die Testpersonen ähnliche Tests, ohne dass bewertet wird. Sie werden auf diese Art vertraut mit den die typischen Interaktionen und der Navigation\n            \n        \n    \n\n\nKeine Treffer\n\n Zurück nach oben"
   },
   {
     "objectID": "Testcenter/Studie_durchfuehren/Szenarien/page_LSA.html",
@@ -3670,21 +3460,8 @@
     "objectID": "tasks/design/extended/Elementeinstellungen/index.html#elementspezifische-einstellungen",
     "href": "tasks/design/extended/Elementeinstellungen/index.html#elementspezifische-einstellungen",
     "title": "Elementeinstellungen",
-    "section": "## Elementspezifische Einstellungen",
-    "text": "## Elementspezifische Einstellungen",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Erweiterter Modus",
-      "Elementeinstellungen"
-    ]
-  },
-  {
-    "objectID": "tasks/design/extended/Elementeinstellungen/index.html#lang-de",
-    "href": "tasks/design/extended/Elementeinstellungen/index.html#lang-de",
-    "title": "Elementeinstellungen",
-    "section": "lang: de",
-    "text": "lang: de\n\nIn diesem Tab gibt es diverse Einstellungen, die meisten davon sind spezifisch zu den einzelnen Elementen. Die folgenden Einstellungen sind allen Elementen gemeinsam. Hier ist exemplarisch der Elementeinstellungstab eines Textelements abgebildet.\n\nID\n\nDie ID eines Elements ist eine eindeutige Kennzeichnung, mithilfe derer man sich auf das Element beziehen kann, z.B. wenn man Sichtbarkeitseinstellungen vornimmt oder Ablagelisten verknüpft.\n\n\nRelevant für “Presentation Complete”\n\nDer Status “Presentation Complete” repräsentiert, ob alle Elemente auf einer Seite vollständig wahrgenommen wurden. Bei den meisten Elementen heißt das, sie müssen auf dem Bildschirm angezeigt worden sein, bei Audios und Videos müssen diese bis zum Ende abgespielt worden sein. Das ist nützlich, denn manchmal möchte man verhindern, dass Schüler*innen im Text weitergehen, bevor sie eine Aufgabe vollständig bearbeitet haben.\nStandardmäßig ist der Haken bei “Relevant für”Presentation complete”” gesetzt, wenn man ihn entfernt, dann wird ein Element für den Status “Presentation Complete” nicht gezählt. Manchmal möchte man den Haken entfernen, wenn ein Element für das Abschließen einer Aufgabe optional ist, beispielsweise wenn mehrere unterschiedliche Items existieren, von denen aber nur eins bearbeitet werden muss und die anderen verborgen bleiben.\n\n\nElementinteraktion erlauben\n\nWenn man den Haken bei “Elementinteraktion erlauben” setzt, dann kann man im Editor mit dem Element interagieren, also beispielsweise bei Optionsfelder Optionen auswählen. Im Allgemeinen ist es aber empfohlen, die Aufgabe in der Vorschau anzusehen, da dies näher an der Darstellung im Testcenter ist.\n\n\nElement duplizieren\n\nMit diesem Knopf kann man eine Kopie des ausgewählten Elements erstellen. Die Kopei des Elements erscheint im gleichen Abschnitt, aber ohne Spalte und Zeile. Daher liegt es zunächst unten links und man sollte dem Duplikat unbedingt eine Spalte und Zeile zuweisen.\n\n\nElement löschen\n\nMit diesem Knopf kann man das ausgewählte Element löschen. Wenn man darauf klickt muss man in einem Dialogfenster bestätigen, dass man das Element wirklich löschen will.\nan dieser Stelle wird noch ein Hinweis auf den Glossar eingefügt",
+    "section": "Elementspezifische Einstellungen",
+    "text": "Elementspezifische Einstellungen\n\nIn diesem Tab gibt es diverse Einstellungen, die meisten davon sind spezifisch zu den einzelnen Elementen. Die folgenden Einstellungen sind allen Elementen gemeinsam. Hier ist exemplarisch der Elementeinstellungstab eines Textelements abgebildet.\n\nID\n\nDie ID eines Elements ist eine eindeutige Kennzeichnung, mithilfe derer man sich auf das Element beziehen kann, z.B. wenn man Sichtbarkeitseinstellungen vornimmt oder Ablagelisten verknüpft.\n\n\nRelevant für “Presentation Complete”\n\nDer Status “Presentation Complete” repräsentiert, ob alle Elemente auf einer Seite vollständig wahrgenommen wurden. Bei den meisten Elementen heißt das, sie müssen auf dem Bildschirm angezeigt worden sein, bei Audios und Videos müssen diese bis zum Ende abgespielt worden sein. Das ist nützlich, denn manchmal möchte man verhindern, dass Schüler*innen im Text weitergehen, bevor sie eine Aufgabe vollständig bearbeitet haben.\nStandardmäßig ist der Haken bei “Relevant für”Presentation complete”” gesetzt, wenn man ihn entfernt, dann wird ein Element für den Status “Presentation Complete” nicht gezählt. Manchmal möchte man den Haken entfernen, wenn ein Element für das Abschließen einer Aufgabe optional ist, beispielsweise wenn mehrere unterschiedliche Items existieren, von denen aber nur eins bearbeitet werden muss und die anderen verborgen bleiben.\n\n\nElementinteraktion erlauben\n\nWenn man den Haken bei “Elementinteraktion erlauben” setzt, dann kann man im Editor mit dem Element interagieren, also beispielsweise bei Optionsfelder Optionen auswählen. Im Allgemeinen ist es aber empfohlen, die Aufgabe in der Vorschau anzusehen, da dies näher an der Darstellung im Testcenter ist.\n\n\nElement duplizieren\n\nMit diesem Knopf kann man eine Kopie des ausgewählten Elements erstellen. Die Kopei des Elements erscheint im gleichen Abschnitt, aber ohne Spalte und Zeile. Daher liegt es zunächst unten links und man sollte dem Duplikat unbedingt eine Spalte und Zeile zuweisen.\n\n\nElement löschen\n\nMit diesem Knopf kann man das ausgewählte Element löschen. Wenn man darauf klickt muss man in einem Dialogfenster bestätigen, dass man das Element wirklich löschen will.\nan dieser Stelle wird noch ein Hinweis auf den Glossar eingefügt",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -3696,21 +3473,8 @@
     "objectID": "tasks/design/extended/Elementeinstellungen/index.html#position-und-maße",
     "href": "tasks/design/extended/Elementeinstellungen/index.html#position-und-maße",
     "title": "Elementeinstellungen",
-    "section": "## Position und Maße",
-    "text": "## Position und Maße",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Erweiterter Modus",
-      "Elementeinstellungen"
-    ]
-  },
-  {
-    "objectID": "tasks/design/extended/Elementeinstellungen/index.html#lang-de-1",
-    "href": "tasks/design/extended/Elementeinstellungen/index.html#lang-de-1",
-    "title": "Elementeinstellungen",
-    "section": "lang: de",
-    "text": "lang: de\n\nDieser Tab wird genutzt um einzustellen, wo das Element angezeigt wird und wie groß es ist. Die Optionen sind im Allgemeinen für alle Elemente gleich.\n\nRaster\n\nAlle Elemente werden auf einem unsichtbaren Raster angezeigt. Jeder Abschnitt hat sein eigenes Raster (s. Abschnittlayout) bestehend aus Spalten und Zeilen. Jedem Element sollte eine Spalte und eine Zeile zugeordnet werden. Wenn ein neues Element erzeugt wird und dieses noch keiner Spalte und Zeile zugeordnet ist, sollte dies schnellstmöglich geändert werden. Die Einstellung Zeilen- bzw. Spaltenspanne bestimmt, wie viele Zeilen bzw. Spalten das Element einnimmt. Wenn z.B. eine Aufgabe anlegt wird in der mehrere Ablagelisten nebeneinander liegen und darüber eine Instruktion steht, dann werden den Ablagelisten verschiedene Spalten zugewiesen. Damit der Instruktionstext darüber steht wird die Spaltenspanne des Textelements entsprechend hoch gesetzt.\n\n\nAbstand\n\nHier wird eingestellt, welchen Abstand das Element auf allen Seiten hat. Ein Abstand ist ein Leerraum zwischen den Elementen im Raster. Es ist Konvention am IQB vorzugsweise die Abstände rechts und unten einzustellen und oben und links nur in Ausnahmefällen zu benutzen. Man kann auch negative Abstände einstellen, um das Element näher an ein anderes Element zu rücken. Das Ändern von Abständen kann Elemente auch visuell verändern, daher sollte sparsam mit dieser Option umgegangen werden.\n\n\nStapelung\n\nDie Stapelung bestimmt, welches Element angezeigt wird und womit im Text interagiert werden kann. Liegen zwei Elemente übereinander so kann nur mit dem Element interagiert werden, welches einen höheren Wert in der Stapelung hat, was also oben liegt. Darunterliegende Elemente sind nur sichtbar, wenn das oben liegende Element transparent ist. So wird z.B. erreicht, dass Ablagelisten auf Bildern liegen.\n\n\n\n\n\n\nHinweis\n\n\n\nDie Stapelung betrifft die Darstellung des Elements in der Vorschau und im Testcenter, aber nicht im Editor. Falls im Editor Elemente übereinanderliegen und dadurch schwierig zu bearbeiten sind können diese in der Elementliste des Abschnitts gesucht werden.\n\n\n\n\nDimensionen\nJedes Element nimmt eine bestimmte Anzahl Pixel auf dem Bildschirm ein. Für manche Elemente ist diese Größe dynamisch an den Bildschirm angepasst. Oft ist es gewünscht, die Größe des Elements genauer zu kontrollieren. Dafür gibt es Möglichkeiten, die Größe des Elements fest zu setzen, eine Mindest- sowie Maximalgröße einzustellen. Dabei kann jeweils Höhe und Breite eingestellt werden.\n\nEin Element mit fester Größe bleibt immer statisch. Dabei ist zu beachten, dass Aufgaben selbst eine feste Seitenbreite haben, meist 750px, die das Element nicht überschreiten sollte. Eine feste Größe einzustellen ist oft ungünstig, da die Anzeige der Aufgaben möglichst dynamisch sein soll. Bei manchen Elementen ändert sich auch die Ausrichtung des Elements, wenn eine feste Größe eingestellt wird. Dann kann eine versteckte feste Größe eingestellt werden: Zunächst wird die feste Größe eingstellt, dann aber wird das Häkchen im Kasten wieder entfernt. Die Größe wird beibehalten, aber die Ausrichtung des Elements bleibt linksbündig.\n\nDie Mindestgröße ist nützlich, um zu verhindern, dass ein Element beliebig schrumpft. Die Mindestgröße gibt an, wie klein das Element höchstens werden darf.\n\nDie Maximalgröße begrenzt wie groß ein Element angezeigt wird. Oft ist sie eine gute Alternative zur festen Größe.",
+    "section": "Position und Maße",
+    "text": "Position und Maße\n\nDieser Tab wird genutzt um einzustellen, wo das Element angezeigt wird und wie groß es ist. Die Optionen sind im Allgemeinen für alle Elemente gleich.\n\nRaster\n\nAlle Elemente werden auf einem unsichtbaren Raster angezeigt. Jeder Abschnitt hat sein eigenes Raster (s. Abschnittlayout) bestehend aus Spalten und Zeilen. Jedem Element sollte eine Spalte und eine Zeile zugeordnet werden. Wenn ein neues Element erzeugt wird und dieses noch keiner Spalte und Zeile zugeordnet ist, sollte dies schnellstmöglich geändert werden. Die Einstellung Zeilen- bzw. Spaltenspanne bestimmt, wie viele Zeilen bzw. Spalten das Element einnimmt. Wenn z.B. eine Aufgabe anlegt wird in der mehrere Ablagelisten nebeneinander liegen und darüber eine Instruktion steht, dann werden den Ablagelisten verschiedene Spalten zugewiesen. Damit der Instruktionstext darüber steht wird die Spaltenspanne des Textelements entsprechend hoch gesetzt.\n\n\nAbstand\n\nHier wird eingestellt, welchen Abstand das Element auf allen Seiten hat. Ein Abstand ist ein Leerraum zwischen den Elementen im Raster. Es ist Konvention am IQB vorzugsweise die Abstände rechts und unten einzustellen und oben und links nur in Ausnahmefällen zu benutzen. Man kann auch negative Abstände einstellen, um das Element näher an ein anderes Element zu rücken. Das Ändern von Abständen kann Elemente auch visuell verändern, daher sollte sparsam mit dieser Option umgegangen werden.\n\n\nStapelung\n\nDie Stapelung bestimmt, welches Element angezeigt wird und womit im Text interagiert werden kann. Liegen zwei Elemente übereinander so kann nur mit dem Element interagiert werden, welches einen höheren Wert in der Stapelung hat, was also oben liegt. Darunterliegende Elemente sind nur sichtbar, wenn das oben liegende Element transparent ist. So wird z.B. erreicht, dass Ablagelisten auf Bildern liegen.\n\n\n\n\n\n\nHinweis\n\n\n\nDie Stapelung betrifft die Darstellung des Elements in der Vorschau und im Testcenter, aber nicht im Editor. Falls im Editor Elemente übereinanderliegen und dadurch schwierig zu bearbeiten sind können diese in der Elementliste des Abschnitts gesucht werden.\n\n\n\n\nDimensionen\nJedes Element nimmt eine bestimmte Anzahl Pixel auf dem Bildschirm ein. Für manche Elemente ist diese Größe dynamisch an den Bildschirm angepasst. Oft ist es gewünscht, die Größe des Elements genauer zu kontrollieren. Dafür gibt es Möglichkeiten, die Größe des Elements fest zu setzen, eine Mindest- sowie Maximalgröße einzustellen. Dabei kann jeweils Höhe und Breite eingestellt werden.\n\nEin Element mit fester Größe bleibt immer statisch. Dabei ist zu beachten, dass Aufgaben selbst eine feste Seitenbreite haben, meist 750px, die das Element nicht überschreiten sollte. Eine feste Größe einzustellen ist oft ungünstig, da die Anzeige der Aufgaben möglichst dynamisch sein soll. Bei manchen Elementen ändert sich auch die Ausrichtung des Elements, wenn eine feste Größe eingestellt wird. Dann kann eine versteckte feste Größe eingestellt werden: Zunächst wird die feste Größe eingstellt, dann aber wird das Häkchen im Kasten wieder entfernt. Die Größe wird beibehalten, aber die Ausrichtung des Elements bleibt linksbündig.\n\nDie Mindestgröße ist nützlich, um zu verhindern, dass ein Element beliebig schrumpft. Die Mindestgröße gibt an, wie klein das Element höchstens werden darf.\n\nDie Maximalgröße begrenzt wie groß ein Element angezeigt wird. Oft ist sie eine gute Alternative zur festen Größe.",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -3722,21 +3486,8 @@
     "objectID": "tasks/design/extended/Elementeinstellungen/index.html#gestaltung",
     "href": "tasks/design/extended/Elementeinstellungen/index.html#gestaltung",
     "title": "Elementeinstellungen",
-    "section": "## Gestaltung",
-    "text": "## Gestaltung",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Erweiterter Modus",
-      "Elementeinstellungen"
-    ]
-  },
-  {
-    "objectID": "tasks/design/extended/Elementeinstellungen/index.html#lang-de-2",
-    "href": "tasks/design/extended/Elementeinstellungen/index.html#lang-de-2",
-    "title": "Elementeinstellungen",
-    "section": "lang: de",
-    "text": "lang: de\n\nIn diesem Tab kann man gestalterische Merkmale des Elements ändern, insbesondere was Schrift und Farbe betrifft. Die Optionen können von Element zu Element variieren, hier wird auf die üblichsten Optionen eingegangen.\n\nHintergrundfarbe\n\nDie Hintergrundfarbe des Elements wird als Hexcode angegeben. Auch möglich ist “transparent” für einen durchsichtigen Hintergrund oder englische Namen für übliche Farben wie blue, black, white.\n\n\nSchriftfarbe\n\nDie Schriftfarbe des Elements wird als Hexcode angegeben. Auch möglich ist “transparent” oder englische Namen für übliche Farben wie blue, black, white.\n\n\nSchriftgröße\n\nDie Schriftgröße für das Element kann hier geändert werden. Bei Textelementen kann zusätzlich die Schriftgröße im Texteditor verändert werden, die angezeigte Schriftgröße ergibt sich aus beiden Einstellungen.\n\n\nZeilenhöhe\n\nDie Zeilenhöhe bestimmt den Abstand zwischen den einzelnen Textzeilen. Man kann damit z.B. einstellen, dass eine Beschriftung über mehrere Zeilen auf der gleichen Höhe ist wie eine dazugehörige Grafik.\n\n\nFormatierung\n\nHier kann man Einstellungen zur Formatierung des Textes im Element vornehmen.",
+    "section": "Gestaltung",
+    "text": "Gestaltung\n\nIn diesem Tab kann man gestalterische Merkmale des Elements ändern, insbesondere was Schrift und Farbe betrifft. Die Optionen können von Element zu Element variieren, hier wird auf die üblichsten Optionen eingegangen.\n\nHintergrundfarbe\n\nDie Hintergrundfarbe des Elements wird als Hexcode angegeben. Auch möglich ist “transparent” für einen durchsichtigen Hintergrund oder englische Namen für übliche Farben wie blue, black, white.\n\n\nSchriftfarbe\n\nDie Schriftfarbe des Elements wird als Hexcode angegeben. Auch möglich ist “transparent” oder englische Namen für übliche Farben wie blue, black, white.\n\n\nSchriftgröße\n\nDie Schriftgröße für das Element kann hier geändert werden. Bei Textelementen kann zusätzlich die Schriftgröße im Texteditor verändert werden, die angezeigte Schriftgröße ergibt sich aus beiden Einstellungen.\n\n\nZeilenhöhe\n\nDie Zeilenhöhe bestimmt den Abstand zwischen den einzelnen Textzeilen. Man kann damit z.B. einstellen, dass eine Beschriftung über mehrere Zeilen auf der gleichen Höhe ist wie eine dazugehörige Grafik.\n\n\nFormatierung\n\nHier kann man Einstellungen zur Formatierung des Textes im Element vornehmen.",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -4260,22 +4011,8 @@
     "objectID": "tasks/design/basic/Medienelemente/Text/index.html#editieren-eines-textelements",
     "href": "tasks/design/basic/Medienelemente/Text/index.html#editieren-eines-textelements",
     "title": "Text",
-    "section": "## Editieren eines Textelements",
-    "text": "## Editieren eines Textelements",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Medienelemente",
-      "Text"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/Medienelemente/Text/index.html#lang-de",
-    "href": "tasks/design/basic/Medienelemente/Text/index.html#lang-de",
-    "title": "Text",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lässt sich das Textelement editieren.\nIm ersten Teil lassen sich die ID (hier „text_1“) und mit einem Klick auf das Stift-Symbol auch der Text editieren.\n\nIm zweiten Teil lässt sich die Anzahl der Spalten einstellen.\n\nIn manchen Fällen (z.B. bei Gedichten oder Zeitungsartikeln) kann es sinnvoll sein, die Anzahl der Spalten anzupassen:\n\n\n\n\n\n\n\n\n\nAnzahl der Spalten: 1\n\n\n\n\n\n\n\nAnzahl der Spalten: 2\n\n\n\n\n\n\n\nAnzahl der Spalten: 3\n\n\n\n\n\nEbenso lassen sich im Textelement Markierfarben einstellen. Dies ist nur bei Stimulustexten sinnvoll. In der Sekundarstufe I werden Markierfarben vor allem als Werkzeug zur Texterschließung eingesetzt. In der Grundschule findet diese Einstellung hauptsächlich im Rahmen eines (Markier-)Items, in der Regel mit der gelben Markierfarbe, Anwendung:\n\n\n\n\n\n\n\n\n\nEinstellung im Textelement des Stimulus\n\n\n\n\n\n\n\nVorschau (Stimulustext)\n\n\n\n\n\nDer Radiergummiknopf  wird mit dem Einstellen von mindestens einer Markierfarbe automatisch hinzugefügt und kann nicht entfernt werden.\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) der Text maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Textelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 400",
+    "section": "Editieren eines Textelements",
+    "text": "Editieren eines Textelements\nIm rechten Reiter „Eigenschaften“ lässt sich das Textelement editieren.\nIm ersten Teil lassen sich die ID (hier „text_1“) und mit einem Klick auf das Stift-Symbol auch der Text editieren.\n\nIm zweiten Teil lässt sich die Anzahl der Spalten einstellen.\n\nIn manchen Fällen (z.B. bei Gedichten oder Zeitungsartikeln) kann es sinnvoll sein, die Anzahl der Spalten anzupassen:\n\n\n\n\n\n\n\n\n\nAnzahl der Spalten: 1\n\n\n\n\n\n\n\nAnzahl der Spalten: 2\n\n\n\n\n\n\n\nAnzahl der Spalten: 3\n\n\n\n\n\nEbenso lassen sich im Textelement Markierfarben einstellen. Dies ist nur bei Stimulustexten sinnvoll. In der Sekundarstufe I werden Markierfarben vor allem als Werkzeug zur Texterschließung eingesetzt. In der Grundschule findet diese Einstellung hauptsächlich im Rahmen eines (Markier-)Items, in der Regel mit der gelben Markierfarbe, Anwendung:\n\n\n\n\n\n\n\n\n\nEinstellung im Textelement des Stimulus\n\n\n\n\n\n\n\nVorschau (Stimulustext)\n\n\n\n\n\nDer Radiergummiknopf  wird mit dem Einstellen von mindestens einer Markierfarbe automatisch hinzugefügt und kann nicht entfernt werden.\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) der Text maximal sein soll. Die Breite ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel Maximalbreite Textelement:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 400",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -4543,22 +4280,8 @@
     "objectID": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_uber_Ziel/index.html#editieren-eines-dad-items",
     "href": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_uber_Ziel/index.html#editieren-eines-dad-items",
     "title": "Drag & Drop einseitig - Zuordnung – Elementliste über Ziellisten",
-    "section": "## Editieren eines DaD Items",
-    "text": "## Editieren eines DaD Items",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "Drag & Drop",
-      "Drag & Drop einseitig - Zuordnung – Elementliste über Ziellisten"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_uber_Ziel/index.html#lang-de",
-    "href": "tasks/design/basic/DaD/DaD_Assistent_ZO_Einseitig_Elemente_uber_Ziel/index.html#lang-de",
-    "title": "Drag & Drop einseitig - Zuordnung – Elementliste über Ziellisten",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.",
+    "section": "Editieren eines DaD Items",
+    "text": "Editieren eines DaD Items\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf eine Ablageliste Elemente des angelegten D&Ds editieren.\nIm ersten Teil lässt sich die ID der einzelnen Ablageliste (hier „drop-list_1“) anpassen.\nAußerdem kann ein Schreibschutz für Beispiele aktiviert werden.\n\nEbenso lässt sich hier die Vorbelegung der Liste anpassen. Wie im Assistenten lassen sich mit dem +-Symbol Optionen hinzufügen, mit dem x -Symbol löschen und mit dem Schraubenschlüsselsymbol bearbeiten. Außerdem lässt sich durch Verschieben mit der Maus die Reihenfolge der Optionen ändern.\n\nWeiter lässt sich einstellen, mit welchen Ablegelisten die jeweilige Ablageliste verbunden sein soll. Elemente können nur zwischen verbundenen Ablegelisten verschoben werden. Wurde eine Aufgabe mit dem Assistenten angelegt, sind die Ablegelisten automatisch richtig miteinander verbunden.\n\nAußerdem kann die Ausrichtung der Elemente innerhalb einer Ablegeliste eingestellt werden. Mit der Einstellung „Dynamisch zentriert“ nehmen sich die Elemente genau so viel Platz wie sie brauchen, „vertikal“ legt die Elemente untereinander, „horizontal“ nebeneinander.\nAuch hier sollten im Normalfall die von den Assistenten vorgegebenen Einstellungen beibehalten werden.\n\nAls Letztes kann für die Ablegelisten noch eine feste Breite eingestellt werden. Dafür muss der Haken gesetzt werden und eine Breite in Pixeln angegeben werden.\nDiese Funktionalität ist vor allem für Ablegelisten in Lückentexten relevant.\nBei mit den Assistenten angelegten Aufgaben sollte der Haken im Normalfall nicht gesetzt werden.",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -4818,21 +4541,8 @@
     "objectID": "tasks/design/basic/CMC-Assistent/index.html#editieren-eines-cmc-items",
     "href": "tasks/design/basic/CMC-Assistent/index.html#editieren-eines-cmc-items",
     "title": "CMC Assistent",
-    "section": "## Editieren eines CMC-Items",
-    "text": "## Editieren eines CMC-Items",
-    "crumbs": [
-      "Aufgaben entwickeln",
-      "Aufgaben gestalten",
-      "Standardmodus",
-      "CMC Assistent"
-    ]
-  },
-  {
-    "objectID": "tasks/design/basic/CMC-Assistent/index.html#lang-de",
-    "href": "tasks/design/basic/CMC-Assistent/index.html#lang-de",
-    "title": "CMC Assistent",
-    "section": "lang: de",
-    "text": "lang: de\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf die Optionentabelle Elemente des angelegten CMCs editieren.\n\nIm ersten Teil lassen sich die ID (hier „likert_3“) und die Beschriftung (Satzanfang) anpassen. Zusätzlich lässt sich eine sekundäre Beschriftung (Zeilenüberschrift) ins CMC einfügen:\n\nEbenso lassen sich die eingetragenen Optionen und Zeilen anpassen: Wie auch im CMC-Assistenten lassen sich mit dem  - Symbol Optionen und Zeilen hinzufügen, mit dem  -Symbol löschen und mit dem Schraubenschlüsselsymbol  bearbeiten.\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nDurch das Einstellen des Anteils der ersten Spalte lässt sich der Platz der Teilfragen/Teilaussagen im Verhältnis zum Platz für die Optionen bestimmen.\nBeispiel:\n\n\n\n\n\n\n\n\n\nAnteil der ersten Spalte: 1\n\n\n\n\n\n\n\nAnteil der ersten Spalte: 3\n\n\n\n\n\n\n\nAnteil der ersten Spalte: 7\n\n\n\n\n\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) das CMC maximal sein soll. Dies kann nützlich sein, wenn die Teilaufgaben/Teilfragen sehr kurz sind und dadurch die Optionen zu weit davon abrücken. Die Breite des CMC ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 365",
+    "section": "Editieren eines CMC-Items",
+    "text": "Editieren eines CMC-Items\nIm rechten Reiter „Eigenschaften“ lassen sich nach einem Klick auf die Optionentabelle Elemente des angelegten CMCs editieren.\n\nIm ersten Teil lassen sich die ID (hier „likert_3“) und die Beschriftung (Satzanfang) anpassen. Zusätzlich lässt sich eine sekundäre Beschriftung (Zeilenüberschrift) ins CMC einfügen:\n\nEbenso lassen sich die eingetragenen Optionen und Zeilen anpassen: Wie auch im CMC-Assistenten lassen sich mit dem  - Symbol Optionen und Zeilen hinzufügen, mit dem  -Symbol löschen und mit dem Schraubenschlüsselsymbol  bearbeiten.\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nDurch das Einstellen des Anteils der ersten Spalte lässt sich der Platz der Teilfragen/Teilaussagen im Verhältnis zum Platz für die Optionen bestimmen.\nBeispiel:\n\n\n\n\n\n\n\n\n\nAnteil der ersten Spalte: 1\n\n\n\n\n\n\n\nAnteil der ersten Spalte: 3\n\n\n\n\n\n\n\nAnteil der ersten Spalte: 7\n\n\n\n\n\nMit der Maximalbreite lässt sich einstellen, wie breit (in Pixeln) das CMC maximal sein soll. Dies kann nützlich sein, wenn die Teilaufgaben/Teilfragen sehr kurz sind und dadurch die Optionen zu weit davon abrücken. Die Breite des CMC ist automatisch bereits durch die Breite der Seite begrenzt.\nEine Maximalbreite lässt sich einstellen, indem ein Häkchen bei „Maximalbreite setzen“ gesetzt und anschließend die Maximalbreite eingetragen wird.\n\nBeispiel:\n\n\n\n\n\n\n\n\n\nohne Einstellen einer Maximalbreite\n\n\n\n\n\n\n\nMaximalbreite 365",
     "crumbs": [
       "Aufgaben entwickeln",
       "Aufgaben gestalten",
@@ -5260,7 +4970,7 @@
     "href": "Schulungsmaterial/index.html",
     "title": "Schulungsmaterial",
     "section": "",
-    "text": "Warnung\n\n\n\nDie nachfolgenden Videos werden derzeit überarbeitet. Sie geben zwar einen groben Einblick in die Arbeitsweise, die Informationen sind jedoch teilweise überholt.\n\n\n\n\n\n\n\n\n   \n    \n    \n      Sortieren nach\n      Voreinstellung\n      \n        Titel\n      \n      \n        Beschreibung\n      \n      \n        Autor:in\n      \n      \n        Datum - Datum (aufsteigend)\n      \n      \n        Datum - Neueste\n      \n      \n        Kategorien\n      \n      \n        link\n      \n      \n        license\n      \n      \n        video-length\n      \n    \n  \n    \n      \n      \n    \n\n\n\n    \n        \n            \n                Aspect-Editor\n            \n        \n        \n            \n                Grundlegende Funktionen und Bedienung des Editors (Stimulus anpassen, Offene Items anpassen etc.)\n                \n                    \n                        \n                            Editor\n                        \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Video\n                        \n                    \n                        \n                            Aspect\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                Autor*in: Semiha Yilmaz\n                Datum: 01.09.2022\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n    \n        \n            \n                Einführung Studio\n            \n        \n        \n            \n                Struktur, Aufbau und Funktionen; Aufbau und Funktion des integrierten Editors; Kodierung und Kommentare\n                \n                    \n                        \n                            Editor\n                        \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Video\n                        \n                    \n                        \n                            Studio\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                Autor*in: Semiha Yilmaz\n                Datum: 01.09.2022\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n    \n        \n            \n                Testdateien \n            \n        \n        \n            \n                Dateien zur Studien-, Testheft- und Aufgaben-Definition\n                \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Testcenter\n                        \n                    \n                        \n                            Studio\n                        \n                    \n                        \n                            Testdateien\n                        \n                    \n                        \n                            Video\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                    Länge: 04:33\n                \n                Autor*in: Tobias Huste\n                Datum: 01.05.2022\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n    \n        \n            \n                Testleitungskonsole\n            \n        \n        \n            \n                Anlegen, Funktionen und Bedienung einer Testleitungskonsole\n                \n                    \n                        \n                            Testcenter\n                        \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Video\n                        \n                    \n                        \n                            Testleitungskonsole\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                Autor*in: Jenny Kölm\n                Datum: 01.09.2020\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n\nKeine Treffer\n Zurück nach oben",
+    "text": "Warnung\n\n\n\nDie nachfolgenden Videos werden derzeit überarbeitet. Sie geben zwar einen groben Einblick in die Arbeitsweise, die Informationen sind jedoch teilweise überholt.\n\n\n\n\n\n\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n         \n          Beschreibung\n        \n         \n          Autor:in\n        \n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Kategorien\n        \n         \n          link\n        \n         \n          license\n        \n         \n          video-length\n        \n     \n  \n    \n      \n      \n    \n\n\n\n    \n        \n            \n                Aspect-Editor\n            \n        \n        \n            \n                Grundlegende Funktionen und Bedienung des Editors (Stimulus anpassen, Offene Items anpassen etc.)\n                \n                    \n                        \n                            Editor\n                        \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Video\n                        \n                    \n                        \n                            Aspect\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                Autor*in: Semiha Yilmaz\n                Datum: 01.09.2022\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n    \n        \n            \n                Einführung Studio\n            \n        \n        \n            \n                Struktur, Aufbau und Funktionen; Aufbau und Funktion des integrierten Editors; Kodierung und Kommentare\n                \n                    \n                        \n                            Editor\n                        \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Video\n                        \n                    \n                        \n                            Studio\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                Autor*in: Semiha Yilmaz\n                Datum: 01.09.2022\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n    \n        \n            \n                Testdateien \n            \n        \n        \n            \n                Dateien zur Studien-, Testheft- und Aufgaben-Definition\n                \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Testcenter\n                        \n                    \n                        \n                            Studio\n                        \n                    \n                        \n                            Testdateien\n                        \n                    \n                        \n                            Video\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                    Länge: 04:33\n                \n                Autor*in: Tobias Huste\n                Datum: 01.05.2022\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n    \n        \n            \n                Testleitungskonsole\n            \n        \n        \n            \n                Anlegen, Funktionen und Bedienung einer Testleitungskonsole\n                \n                    \n                        \n                            Testcenter\n                        \n                    \n                        \n                            Einführung\n                        \n                    \n                        \n                            Video\n                        \n                    \n                        \n                            Testleitungskonsole\n                        \n                    \n                \n            \n            \n                 \n                    \n                        \n                        Video HU-Moodle\n                    \n                \n                \n                Autor*in: Jenny Kölm\n                Datum: 01.09.2020\n                Lizenz: \n                    \n                        CC0\n                    \n                \n            \n        \n    \n\n\n\nKeine Treffer\n\n Zurück nach oben",
     "crumbs": [
       "Schulungsmaterial"
     ]
